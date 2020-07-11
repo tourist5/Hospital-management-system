@@ -1,0 +1,44 @@
+<?php
+  include_once 'C:\xampp\htdocs\project\DBC.php';
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patient's Entry </title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<header>
+  <img src="Logo.png" alt="Logo" align-"left">
+  <h1>Hospital Management</h1>
+</header>
+<div class="topnav">
+<a href="html.html">Home</a>
+<a href="Pat.html">Patient Entries</a>
+</div>
+<section>
+  
+  <article>
+  <form action="DB/Patient.php" method="POST">
+  <fieldset>
+  <legend>Please Please Enter Your credentials </legend>
+Patient Token No: <input type="text" name="PID"><br><br>
+Name: <input type="text" name="Name"><br><br>
+Address: <input type="text" name="Address"><br><br>
+Contact Number: <input type="text" name="CNo"><br><br>
+Date of Admission: <input type="text" name="D_O_Ad"><br><br>
+Date of Discharge: <input type="text" name="D_O_Dis"><br><br>
+  <input type="submit" value="Enter">
+  </fieldset>
+   </form>
+  </article>
+</section>
+
+
+
+<footer>
+  <p>Project by Abhishek Mishra and Mihir kumar</p>
+</footer>
+
+</body>
+</html>
